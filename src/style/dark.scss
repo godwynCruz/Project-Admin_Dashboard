@@ -1,0 +1,108 @@
+.app.dark{
+    background-color: #141414;
+    color: rgb(167, 167, 167);
+
+    .chartGrid{
+        stroke:rgba(228, 228, 228, 0.219);
+    }
+
+    .table{
+        background-color: #141414;
+
+        .tableCell{
+            color: rgb(167, 167, 167);
+        }
+    }
+
+    .navbar{
+        color: rgb(167, 167, 167);
+        border-color: #414141;
+
+        .wrapper{
+            .search{
+                border-color: #414141;
+            }
+
+            .items{
+                .item{
+                    .counter{
+                        background-color: #414141;
+                        color: rgb(167, 167, 167);
+                    }
+                }
+            }
+        } 
+    }
+
+    .sidebar{
+        background-color: #141414;
+        border-color: #414141;
+
+        .colorOption{
+            border: 1px solid #414141;
+        }
+
+        .top{
+            .logo{
+                color: rgb(167, 167, 167);
+            }
+        }
+        hr{
+            border-color: #414141;
+        }
+
+        ul{
+            li{
+                &:hover{
+                    background-color: #414141;
+                }
+
+                .icon{
+                    color:rgb(167, 167, 167);
+                }
+            }
+        }
+    }
+
+    .datatable{
+        .dataTableTitle{
+            color: rgb(167, 167, 167);
+            
+            button{
+                background-color: #414141;
+                color: rgb(167, 167, 167);
+            }
+        }
+        .datagrid{
+            color: rgb(167, 167, 167);
+            border: none;
+
+            .viewButton, .deleteButton, .cellWithStatus{
+                color: rgb(167, 167, 167);
+                border: none;
+            }
+        }
+    }
+
+    input{
+        background-color: transparent;
+        
+    }
+
+    .new{
+        .top{
+            h1{
+                color: rgb(167, 167, 167);
+            }
+        }
+
+        .right{
+            form{        
+                button{
+                    background-color: #414141;
+                    color: rgb(167, 167, 167);
+                }
+            }
+        }
+    }
+}
